@@ -24,6 +24,6 @@ public class Main {
 		Long end =  System.nanoTime();
 		
 		System.out.println("ArrayList: " + (end - start) / 1e6); //in milliseconds
-		
+		System.out.println(list.size());		
 	}
 }
